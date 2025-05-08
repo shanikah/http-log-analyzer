@@ -15,6 +15,7 @@ This uses Java standard libraries and includes unit tests to verify core logic u
 
 # How to run
 mvn clean package
+
 java -jar target/LogAnalyzerApp-1.0-SNAPSHOT.jar programming-task-example-data.log
 
 
