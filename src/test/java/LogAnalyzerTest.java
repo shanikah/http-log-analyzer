@@ -13,7 +13,7 @@ public class LogAnalyzerTest {
 
 
     @Test
-    public void testLogAnalyzer() throws IOException{
+    void testLogAnalyzer() throws IOException{
         logAnalyzer = new LogAnalyzer();
         LogSummary logSummary= logAnalyzer.analyze("programming-task-example-data.log");
 
